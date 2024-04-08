@@ -1,0 +1,38 @@
+/* ErrorMensaje.css */
+@keyframes shake {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70% {
+    transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(10px);
+  }
+}
+
+.error-div {
+  background-color: #ffcccc;
+  color: #cc0000;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 5px;
+  border: 1px solid #cc0000;
+  text-align: center;
+  cursor: pointer;
+}
+
+.error-div:active {
+  /* Cuando se haga clic, aplicar la animación */
+  animation: shake 5s ease-in-out;
+}
