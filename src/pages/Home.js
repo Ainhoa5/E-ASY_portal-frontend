@@ -1,13 +1,15 @@
 import React from 'react';
-import Header from '../components/Header';
-import Form from '../components/Form';
-import '../styles/baseStyles.css'; // Importa los estilos base
-
+/* import Header from '../components/Header';
+import Form from '../components/Form'; */
+/* import '../styles/baseStyles.css'; */
+import FormPage from '../components/FormPage';
+import '../styles/index.css';
 const Home = () => {
   return (
     <section>
-      <Header />
-      <Form />
+      {/* <Header />
+      <Form /> */}
+      <FormPage></FormPage>
     </section>
   );
 }
